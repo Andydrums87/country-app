@@ -1,0 +1,30 @@
+#dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: ''; 
+    width:100%;
+    background-color: transparent;
+    padding:7px 20px;
+    border-radius: 10px;;
+    color:#D2D5DA;
+    border: 1px solid #6C727F;
+    margin-bottom: 10px;;
+    background-image: url(/src/images/Expand_down.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;;
+    margin-right:20px;
+
+   
+}
+
+option::placeholder {
+    color:red;
+}
+
+.dropdown__title {
+    color:#6C727F;
+    font-size: 0.75rem;
+    font-weight: 400;;
+    margin-bottom: 5px;
+}

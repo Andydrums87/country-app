@@ -1,0 +1,47 @@
+.regions__list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width:70%;
+    gap:20px;
+    margin-bottom: 10px;;
+    
+}
+
+.regions__title {
+    color:#6C727F;
+    font-size: 0.65rem;
+    font-weight: 400;;
+    margin-bottom: 10px;;
+}
+
+.region__btn {
+    color:#6C727F;
+    font-size: 0.85rem;
+    font-weight: 600;;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+ 
+   
+    
+}
+
+.active {
+    font-size: 0.875rem;
+    font-weight: 600;
+    background-color: #282B30;
+    color: white;
+    padding:10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin: -15px;;
+}
+
+@media (max-width:640px) {
+    .regions__list {
+        width:90%;
+    }
+}
+

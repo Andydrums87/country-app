@@ -1,0 +1,16 @@
+.header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40%;
+    background-image: url(/src/images/hero-image-wr.jpg);
+    background-position: 50% 20%;
+    background-size: cover;
+  
+
+}
+
+.hero__logo {
+    width:160px;
+}
+

@@ -1,0 +1,12 @@
+.sidebar__container {
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+@media (max-width:640px) {
+    .sidebar__container {
+        width:100%;
+    }
+}

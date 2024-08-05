@@ -1,0 +1,15 @@
+ .checkbox__container {
+   color:#D2D5DA;
+   font-size: 0.75rem;;
+   font-weight:400;
+
+} 
+
+.input {
+    margin-right: 10px;;
+    margin-bottom: 20px;;
+    width:15px;
+    height:15px;
+    background-color: transparent;
+}
+

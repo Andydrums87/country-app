@@ -1,0 +1,53 @@
+.pagination {
+    width:100%;
+    margin-top: 40px;;
+
+
+}
+#my__list {
+   list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:5px;
+    margin-top: 10px;;
+
+}
+  
+  
+.btn__pagination {
+    width:30px;
+    height:30px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: none;
+  
+
+    
+
+    
+  }
+  
+  .page__item {
+    border: none;
+  }
+  
+  .activePage {
+    width:30px;
+    height:30px;
+    background-color: white;
+    border-radius: 10px;;
+    color: #1B1D1F;
+    cursor: pointer;
+    border: none;
+  
+  }
+
+  @media (max-width: 640px) {
+    .pagination{
+      width:70%;
+      margin: 0 auto;
+      margin-top: 50px;;
+    }
+  }
