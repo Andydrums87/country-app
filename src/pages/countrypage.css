@@ -212,3 +212,9 @@ figcaption {
     }
     
 }
+
+@media (max-width:400px) {
+    .hello {
+        gap:50px;
+    }
+}

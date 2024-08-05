@@ -115,7 +115,7 @@ const handleBack = () => {
 
 </table> 
 <div className="hello">
-{countries.borders && allCountries.filter((item) => countries.borders.includes(item.cca3)).map((d, index) => {
+{!countries.borders ? <p>This country has no neighbouring countries</p> : countries.borders && allCountries.filter((item) => countries.borders.includes(item.cca3)).map((d, index) => {
 return  ( 
             <figure className="figure" key={index} >
                 <img onClick={(e)=>handleClick(d.name.common)} id="border__flag"src={d.flags.png} alt="" />

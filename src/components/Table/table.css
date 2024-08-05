@@ -53,6 +53,17 @@
    
 }
 
+@media (max-width: 640px) {
+    .flag__img {
+        width:40px;
+        height:25px;
+    }
+
+    .table_component td {
+        padding:5px 0px;
+    }
+}
+
 
 
 
