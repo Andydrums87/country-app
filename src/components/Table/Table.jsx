@@ -44,7 +44,7 @@ const handleClick = (clickedRecipe) => {
                 <th>Flag</th>
                 <th>Name</th>
                 <th>Population</th>
-                <th>Area km2</th>
+                <th>Area(km&#178;)</th>
                 <th>Region</th>
             </tr>
         </thead>
