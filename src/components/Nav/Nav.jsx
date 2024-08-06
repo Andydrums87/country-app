@@ -8,6 +8,7 @@ function Nav({countries, allCountryData, setCountries}) {
     const [userInput, setUserInput] = useState('')
 
     const handleSearch = () => {
+    
     const countryToDisplay = allCountryData.filter((item) => item.name.common.toLowerCase().includes(userInput.toLowerCase()) 
     || 
     item.region.toLowerCase().includes(userInput.toLowerCase())
@@ -15,11 +16,8 @@ function Nav({countries, allCountryData, setCountries}) {
     // item.subregion.toLowerCase().includes(userInput.toLowerCase())
 )
    
-    // const regionToDisplay =  allCountryData.filter((item) => item.region.toLowerCase().includes(userInput.toLowerCase()))
-    
-    setCountries(countryToDisplay) 
-    
-  
+    userInput === "" ? setCountries(allCountryData) : setCountries(countryToDisplay) 
+
     }
  
    const handleOnChange = (e) => {

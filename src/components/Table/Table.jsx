@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom"
 import { useNavigate } from "react-router-dom"
 import "./table.css"
@@ -10,6 +10,9 @@ function Table ({countries, firstIndex, lastIndex, loading}) {
 const navigate = useNavigate()
 
 const [clickedRecipe, setClickedRecipe] = useState()
+const [screenSize, setScreenSize] = useState({
+    width: window.innerWidth,
+  });
 
 
 
@@ -51,11 +54,12 @@ const handleClick = (clickedRecipe) => {
     <tr className="row" key={index}>
        <td><button className="link"onClick={(e) => {handleClick(country.name.official); setClickedRecipe(country.name.official)}}><img className="flag__img" src={country.flags.svg} alt="flag" /></button></td>
        <td>{country.name.common}</td>
+       {/* <td>{country.population.toString().length > 8 ? `${country.population.toLocaleString().slice(0, 8)}` + "..." : country.population.toLocaleString()}</td> */}
        <td>{country.population.toLocaleString()}</td>
        <td>{country.area.toLocaleString()}</td>
        <td>{country.region}</td>
        </tr>
-    //    <Link to={`/country/${country.name.common}`}</Link>
+    
       
 
 

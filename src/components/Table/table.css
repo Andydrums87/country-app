@@ -54,6 +54,9 @@
 }
 
 @media (max-width: 640px) {
+    .table_component table {
+        table-layout: auto;
+    }
     .flag__img {
         width:40px;
         height:25px;
@@ -61,7 +64,14 @@
 
     .table_component td {
         padding:5px 0px;
+        font-size: 0.6rem;;
+        
     }
+
+    .flag__img {
+        padding-right: 5px;;
+    }
+
 }
 
 

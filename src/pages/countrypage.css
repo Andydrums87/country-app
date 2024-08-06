@@ -86,12 +86,6 @@
     padding-right: 20px;;
 }
 
-.country__page__table {
-  
- 
-
-
-}
 
 .country__page__table table {
 
@@ -161,7 +155,7 @@ figcaption {
     width: 100%;
     margin-top: 40px;;
     display: flex;
-    gap:0px;
+    gap:0%;
     justify-content: flex-start;
     flex-wrap: wrap;
    
@@ -208,13 +202,13 @@ figcaption {
     }
 
     .hello {
-        gap:10px;
+        gap:10%;
     }
     
 }
 
 @media (max-width:400px) {
     .hello {
-        gap:50px;
+        gap:15%;
     }
-}
+} 
