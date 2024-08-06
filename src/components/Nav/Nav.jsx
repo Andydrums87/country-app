@@ -22,6 +22,7 @@ function Nav({countries, allCountryData, setCountries}) {
  
    const handleOnChange = (e) => {
       e.key === "Enter" && handleSearch()
+ 
    } 
 
  
